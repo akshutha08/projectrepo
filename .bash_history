@@ -28,3 +28,8 @@ sudo git branch develop
 sudo git branch
 sudo apt-get install docker.io
 sudo nano Dockerfile
+sudo git add .
+sudo git commit -m"test case updated"
+sudo git push origin master
+ls
+sudo java -jar agent.jar -jnlpUrl http://18.218.104.137:8080/computer/jenkins-test/slave-agent.jnlp -secret 33e6150b4d0207c0cd516e9c3fa57b8f4e6f2181b999462b12ededc602b27e1e -workDir "/home/ubuntu"
